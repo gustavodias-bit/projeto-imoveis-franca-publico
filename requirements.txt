@@ -1,16 +1,29 @@
-# === SCRAPING ===
-apify-client==1.7.1
-requests==2.31.0
+# Web Scraping
+selenium==4.33.0
 beautifulsoup4==4.12.2
+requests==2.31.0
+apify-client==1.7.1
 
-# === DATA PROCESSING ===
+# Data Processing
 pandas==2.1.4
 numpy==1.24.3
 openpyxl==3.1.2
 
-# === AUTOMATION ===
-schedule==1.2.0
-python-dotenv==1.0.0
+# Image Processing & AI
+opencv-python-headless==4.11.0.86
+pillow==11.2.1
+ultralytics==8.3.152
+torch==2.7.1+cpu
+torchvision==0.22.1+cpu
 
-# === UTILITIES ===
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.0
 aiofiles==23.2.1
+psutil==7.0.0
+
+# Additional Dependencies
+matplotlib==3.10.3
+scipy==1.15.3
+tqdm==4.67.1
+PyYAML==6.0.2
